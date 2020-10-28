@@ -26,7 +26,7 @@ def main():
     '''%(C,W)
 	for spam in range(int(sys.argv[2])):
 		citcall(sys.argv[1])
-		time.sleep(4) #gk usah di ganti ya anjenk
+		time.sleep(5) #gk usah di ganti ya anjenk
 if __name__=='__main__':
 	try:
 		main()
