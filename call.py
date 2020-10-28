@@ -13,7 +13,7 @@ def citcall(nomor):
 	if call['result']=='Success':
 		print '%s[%s✓%s] Success spam %s'%(W,G,W,nomor)
 	else:
-		print '%s[%sx%s] Limit, ganti IP '%(W,R,W);break
+		print '%s[%sx%s] Limit, ganti IP '%(W,R,W)
 def main():
 	os.system('cls' if os.name == 'nt' else 'clear')
 	print '''%s
